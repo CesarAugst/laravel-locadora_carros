@@ -38,9 +38,6 @@ class CreateLocacoesTable extends Migration
      */
     public function down()
     {
-        Schema::table('locacoes', function (Blueprint $table) {
-            $table->dropForeign('locacoes_cliente_id_foreign');
-        });
-        Schema::dropIfExists('locacoes');
+        Schema::dropIfExists('locacaos');
     }
 }

@@ -1,7 +1,8 @@
 <?php
 
-namespace  App\Repositories;
+namespace App\Repositories;
 
 class ModeloRepository extends AbstractRepository {
-
 }
+
+?>
